@@ -1,0 +1,8 @@
+.ghosts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
