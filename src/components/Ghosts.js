@@ -13,7 +13,7 @@ export default function Ghosts({ t, i18n }) {
       <h1>{t("ghosts")}</h1>
       <div className="ghosts">
         {Object.entries(ghosts).map(([key, value]) => (
-          <Ghost key={key} ghost={value} evidences={evidences} t={t}/>
+          <Ghost key={key} ghost={value} evidences={evidences} t={t} org={key}/>
         ))}
       </div>
     </div>
