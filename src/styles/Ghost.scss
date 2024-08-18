@@ -1,6 +1,22 @@
+@import "Variables";
+
 .ghost {
-    border: 1px solid #ddd;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
+  border: 1px solid $primary-color;
+  border-radius: $border-radius;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  background-color: darken($background-color, 10%);
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: lighten($background-color, 5%);
   }
+}
+
+.ghost:hover .ghost-tip {
+  visibility: visible;
+  opacity: 1;
+}

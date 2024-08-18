@@ -1,13 +1,17 @@
 {
     "welcome_message": "Witaj w naszej aplikacji!",
     "logout": "Wyloguj się",
+    "yes": "tak",
+    "no": "nie",
     "evidence": "Dowody",
     "ghosts": "Duchy",
-    "emf": "EMF-5",
-    "fingerprint": "Fingerprint",
-    "ghost_writing": "Ghost Writing",
-    "freezing": "Freezing Temperatures",
-    "dots": "D.O.T.S. Projektor",
-    "orbs": "Ghost Orbs",
+    "attack": "Atakuje na",
+    "specialMovement": "Unikalne poruszanie",
+    "emf": "EMF poziom 5",
+    "fingerprint": "Ultrafiolet",
+    "ghost_writing": "Pismo ducha",
+    "freezing": "Mroźne temperatury",
+    "dots": "Projektor D.O.T.S",
+    "orbs": "Orb",
     "spirit_box": "Spirit Box"
 }  

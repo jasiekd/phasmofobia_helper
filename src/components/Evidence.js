@@ -16,12 +16,12 @@ export default function Evidence({ name, value, org }) {
     <div className="evidence" onClick={() => handleUpdate(org, value)}>
       <div
         style={{
-          textDecoration: value === 2 ? "line-through" : "none",
           border: value === 1 ? "2px solid #FFF" : "none",
           borderRadius: "50px",
           padding: "2px 8px",
           width: "fit-content"
         }}
+        className={`${value === 2 ? 'strikethrough' : ''}`}
       >
         {name}
       </div>

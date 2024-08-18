@@ -9,10 +9,14 @@ export default function Header({ t, i18n }) {
   };
   return (
     <header className="App-header">
-      {/* <img className="logo" src={logo} alt="Logo" style={{maxHeight:"10vh"}}/> */}
-      <h1>Phasmofobia Helper</h1>
-      <button onClick={() => handleLanguageChange("en")}>English</button>
-      <button onClick={() => handleLanguageChange("pl")}>Polski</button>
+      <div style={{display: "flex", marginLeft: "10px"}}>
+        {/* <img className="logo" src={logo} alt="Logo" style={{maxHeight:"90px"}}/> */}
+        <h1>Phasmofobia Helper</h1>
+      </div>
+      <div>
+        <button onClick={() => handleLanguageChange("en")}>English</button>
+        <button onClick={() => handleLanguageChange("pl")}>Polski</button>
+      </div>
     </header>
   );
 }

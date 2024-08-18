@@ -1,8 +1,17 @@
+@import "Variables";
+
 .evidence {
-    border: 1px solid #ddd; /* Opcjonalnie: stylizacja dla lepszej widoczności */
-    padding: 10px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  border: 1px solid $primary-color;
+  border-radius: $border-radius;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: darken($background-color, 10%);
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: lighten($background-color, 5%);
   }
+}

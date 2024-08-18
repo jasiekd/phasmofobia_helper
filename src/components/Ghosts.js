@@ -9,11 +9,11 @@ export default function Ghosts({ t, i18n }) {
   const evidences = useSelector((state) => state.evidences);
 
   return (
-    <div>
+    <div style={{ marginLeft: "10px", marginRight: "10px" }}>
       <h1>{t("ghosts")}</h1>
       <div className="ghosts">
         {Object.entries(ghosts).map(([key, value]) => (
-          <Ghost key={key} ghost={value} evidences={evidences}/>
+          <Ghost key={key} ghost={value} evidences={evidences} t={t}/>
         ))}
       </div>
     </div>

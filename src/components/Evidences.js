@@ -8,7 +8,7 @@ export default function Evidences({ t, i18n }) {
   const evidences = useSelector((state) => state.evidences);
 
   return (
-    <div>
+    <div style={{ marginLeft: "10px", marginRight: "10px" }}>
       <h1>{t("evidence")}</h1>
       <div className="evidences">
         {Object.entries(evidences).map(([key, value]) => (
